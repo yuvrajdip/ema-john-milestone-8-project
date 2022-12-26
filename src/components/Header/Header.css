@@ -1,0 +1,22 @@
+.nav{
+  background: #1C2B35;
+  height:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 140px;
+  position:sticky;
+  top:0px;
+  z-index:3;
+}
+
+.nav a{
+  text-decoration: none;
+  margin:0px 36px;
+  color:white;
+  font-size: 17px;
+}
+
+.nav a:hover{
+  color : orange;
+}
